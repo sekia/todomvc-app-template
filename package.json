@@ -1,7 +1,14 @@
 {
   "private": true,
   "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "todomvc-app-css": "^2.0.0",
     "todomvc-common": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "envify": "^4.1.0",
+    "uglify-js": "^3.0.26"
   }
 }

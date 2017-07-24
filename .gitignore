@@ -1,1 +1,3 @@
-node_modules
+/_build/
+/node_modules/
+!/node_modules/todomvc-*
