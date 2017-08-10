@@ -1,7 +1,7 @@
 open Sexplib.Std
 
 module Reactjs = Caelm.Reactjs.Make_with_require (struct
-    let require = Js.Unsafe.variable "require"
+    let require = Js.Unsafe.pure_js_expr "require"
   end)
 
 module Todo = struct
