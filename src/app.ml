@@ -97,7 +97,7 @@ module State = struct
   let replace todos old new_ =
     List.map (fun todo -> if todo = old then new_ else todo) todos
 
-  let update ({ filter; input; todos } as state) = function
+  let update ({ todos; _ } as state) = function
     | Add_todo todo ->
       let todos = todo :: todos in
       { state with input = ""; todos }, Some (save_todos todos)
