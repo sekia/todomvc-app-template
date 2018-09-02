@@ -1,0 +1,8 @@
+(executable (name app)
+ (libraries
+  caelm
+  caelm.lwt
+  caelm.tyxml
+  js_of_ocaml
+  js_of_ocaml.weak)
+ (preprocess (pps js_of_ocaml.ppx ppx_sexp_conv)))

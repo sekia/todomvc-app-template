@@ -1,2 +1,0 @@
-true: package(caelm,caelm.lwt,caelm.tyxml,js_of_ocaml,js_of_ocaml.ppx,ppx_sexp_conv)
-<src/*.js>: package(js_of_ocaml.weak), pretty, sourcemap_inline
